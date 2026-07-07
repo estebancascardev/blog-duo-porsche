@@ -3,9 +3,19 @@ body {
     width: 100%;
 }
 
-.modelos{
+.modelos {
     display: flex;
-    flex: 1 1 calc( 30% - 33.33px);
-    flex-wrap: wrap;
+}
+
+.modelos img {
+    width: 95%; 
+    margin: auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.Motorsport {
+    text-align: justify;
+    margin: 10%;
 }
 
