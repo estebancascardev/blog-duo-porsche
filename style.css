@@ -1,13 +1,18 @@
 body {
     margin: auto;
-    width: 100%;
 }
 
 .modelos {
-    display: flex;
+    overflow: hidden;
+    position: relative;
 }
 
-.modelos img {
+.modelos-slide {
+    display: flex;
+    overflow-x: auto;
+}
+
+.modelos-slide img {
     width: 95%; 
     margin: auto;
     padding: 10px;
