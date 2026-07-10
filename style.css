@@ -2,6 +2,10 @@ body {
     margin: auto;
 }
 
+p, h1, h3 {
+    font-family: "Lato", sans-serif;
+}
+
 .modelos {
     overflow: hidden;
     position: relative;
@@ -22,5 +26,9 @@ body {
 .Motorsport {
     text-align: justify;
     margin: 10%;
+}
+
+.Motorsport img {
+    border-radius: 50px;
 }
 
