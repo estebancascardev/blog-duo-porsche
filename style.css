@@ -6,6 +6,16 @@ p, h1, h3 {
     font-family: "Lato", sans-serif;
 }
 
+i, b {
+    text-align: center;
+    margin: 10%;
+    display: block;
+}
+
+#video-pc{
+    display: none;
+}
+
 .modelos {
     overflow: hidden;
     position: relative;
@@ -30,5 +40,71 @@ p, h1, h3 {
 
 .Motorsport img {
     border-radius: 50px;
+    width: 100%;
+}
+
+.historia p {
+  text-align: justify;
+  margin: 10%;
+}
+
+.historia img{
+    width: 80%;
+    border-radius: 50px; 
+    margin: 10%; 
+}
+
+#motorsport-pc{
+    display:none;
+}
+
+@media screen and (min-width: 1200px){
+    
+    #video-mobile{
+        display: none;
+    }
+
+    #video-pc{
+        display: block;
+    }
+    
+    p, i, b {
+        font-size: 25px;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    .historia{
+        display: flex;
+    }
+
+    .historia p{
+        width: 50%;
+        gap: 10px;
+        margin: auto;
+    }
+
+
+    .historia img{
+        width: 30%;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .Motorsport{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #motorsport-mobile{
+        display: none;
+    }
+
+    #motorsport-pc{
+        display: block;
+    }
+
 }
 
