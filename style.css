@@ -8,8 +8,9 @@ p, h1, h3 {
 
 i, b {
     text-align: center;
-    margin: 10%;
+    margin: 50px;
     display: block;
+
 }
 
 #video-pc{
@@ -105,6 +106,4 @@ i, b {
     #motorsport-pc{
         display: block;
     }
-
 }
-
