@@ -12,7 +12,7 @@
 ***
 
 ## 1. Blog Vehículos Porsche
-Esta página web es un blog enfocado en información de los vehículos Porsche, enfocandose en su historia, el autor, modelos importantes, y la linea Motorsport.
+Esta página web es un blog centrado en información de los vehículos Porsche, enfocandose en su historia, el autor, modelos importantes, y la linea Motorsport.
 
 El objetivo de la realización de este blog es el obtener conocimientos tanto en HTML como CSS, específicamente con el manejo del "responsive desing" mediante la práctica "Mobile First".
 
